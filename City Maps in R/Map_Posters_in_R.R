@@ -2,12 +2,6 @@ library(tidyverse)
 library(osmdata)
 library(ggplot2)
 
-#library(dplyr)
-#library(sf)
-#library(tmap)
-#library(lwgeom)
-
-
 # in order to plot a map we need a bounding box that contains whatever city we want to display
 
 # getbb gets the bounding box based on the city and country, but might not be perfect
